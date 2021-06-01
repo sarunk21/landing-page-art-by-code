@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'sans': ['Poppins', 'Montserrat\\ Alternates', 'sans-serif'],
+      'sans': ['Poppins'],
+      'poppins': ['Poppins', 'sans-serif'],
+      'montserrat': ['Montserrat\\ Alternates', 'sans-serif']
     }
   },
   variants: {
