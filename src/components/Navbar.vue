@@ -2,7 +2,7 @@
   <div class="py-4 grid grid-cols-12 items-center">
     <img
       src="../assets/img/logo.svg"
-      class="max-h-14 col-span-6"
+      class="max-h-12 col-span-6"
       alt="Art By Code Logo"
       data-aos="fade-down"
       data-aos-duration="1200"

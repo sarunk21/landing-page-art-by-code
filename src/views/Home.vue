@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-8">
     <Navbar />
-    <div class="grid grid-cols-12 mt-5">
+    <div class="grid grid-cols-12 mt-3">
       <div class="col-span-12 md:col-span-6 mt-1 md:mt-16">
         <h1
           class="title"
@@ -15,7 +15,7 @@
           Art By <span id="judul"></span> <span class="font-poppins">ABC</span>
         </h1>
         <p
-          class="text-sm md:text-lg my-6 opacity-70"
+          class="text-xs md:text-lg my-4 md:my-6 opacity-70"
           style="color: #115b76"
           data-aos="zoom-in"
           data-aos-duration="800"
@@ -35,11 +35,9 @@
         <img
           src="../assets/img/hero.svg"
           alt="Hero Image"
-          class="ml-auto"
-          style="max-height: 450px"
-          data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="1000"
+          class="md:ml-auto hero"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
         />
       </div>
     </div>
@@ -108,12 +106,19 @@ export default {
 }
 
 .map {
-  height: 200px;
+  height: 250px;
+}
+
+.hero {
+  max-height: 250px;
 }
 
 @media (min-width: 768px) {
   .map {
     height: 350px;
+  }
+  .hero {
+    max-height: 490px;
   }
 }
 
