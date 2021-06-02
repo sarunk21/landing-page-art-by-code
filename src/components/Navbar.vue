@@ -19,7 +19,7 @@
       <i class="fa fa-bars"></i>
     </button>
     <ul
-      class="z-10 col-span-12 mt-6 justify-between items-center md:mt-0 md:col-span-6 md:flex"
+      class="z-10 col-span-12 mt-6 justify-end items-center md:mt-0 md:col-span-6 md:flex"
       :class="[{ block: open }, { hidden: !open }]"
       :data-aos="!open ? 'fade-left' : ''"
       data-aos-duration="1300"
@@ -53,7 +53,7 @@ a {
 }
 
 li {
-  @apply border-b border-white duration-200;
+  @apply border-b border-white duration-200 ml-0 mb-1 md:ml-6 md:mb-0;
 }
 
 li:hover {
