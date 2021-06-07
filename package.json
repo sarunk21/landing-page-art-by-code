@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.6.5",
+    "typed.js": "^2.0.12",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },

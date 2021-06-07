@@ -3,6 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      'sans': ['Poppins'],
+      'poppins': ['Poppins', 'sans-serif'],
+      'montserrat': ['Montserrat\\ Alternates', 'sans-serif']
+    }
   },
   variants: {
     extend: {},
