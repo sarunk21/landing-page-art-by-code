@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12 mt-10">
+  <div class="grid grid-cols-12 my-10">
     <div
       class="grid items-center justify-items-center col-span-12 bg-contain bg-no-repeat bg-center map"
       :style="{ backgroundImage: `url(${require('@/assets/img/map.svg')})` }"
