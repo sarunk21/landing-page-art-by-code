@@ -1,8 +1,10 @@
 <template>
-  <div class="grid grid-cols-12 mt-10">
+  <div class="grid grid-cols-12 my-16 md:my-24">
     <div
-      class="grid items-center justify-items-center col-span-12 bg-contain bg-no-repeat bg-center map"
-      :style="{ backgroundImage: `url(${require('@/assets/img/map.svg')})` }"
+      class="grid items-center justify-items-center col-span-12 bg-contain bg-no-repeat bg-center h-hero-mobile md:h-hero"
+      :style="{
+        backgroundImage: `url(${require('@/assets/img/map.svg')})`,
+      }"
     >
       <div
         class="flex flex-col justify-center items-center md:w-1/2 text-center"
@@ -16,7 +18,7 @@
           Ayo Kenalan
         </h1>
         <p
-          class="my-6 text-xs md:text-lg"
+          class="my-6 text-sm md:text-lg"
           data-aos="fade-left"
           data-aos-duration="1200"
         >
@@ -24,7 +26,7 @@
           apapun dari kode
         </p>
         <p
-          class="text-xs md:text-lg"
+          class="text-sm md:text-lg"
           data-aos="fade-right"
           data-aos-duration="1200"
         >
