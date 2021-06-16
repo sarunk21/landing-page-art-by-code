@@ -6,7 +6,8 @@ module.exports = {
     fontFamily: {
       'sans': ['Poppins'],
       'poppins': ['Poppins', 'sans-serif'],
-      'montserrat': ['Montserrat\\ Alternates', 'sans-serif']
+      'montserrat': ['Montserrat\\ Alternates', 'sans-serif'],
+      'open-sans': ['Open\\ Sans', 'sans-serif'],
     }
   },
   variants: {
