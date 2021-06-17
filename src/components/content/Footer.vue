@@ -17,7 +17,7 @@
           <h1 class="font-montserrat mb-3">
             Art By Code
           </h1>
-          <p class="text-sm md:text-base opacity-60">
+          <p class="text-sm md:text-base opacity-75">
             Kami bisa menciptakan sesuatu yang indah dari kode
           </p>
         </div>
@@ -61,7 +61,7 @@ li {
 }
 
 li a {
-  @apply text-sm md:text-base opacity-60;
+  @apply text-sm md:text-base opacity-70 duration-150 hover:opacity-100 hover:text-white;
 }
 
 h1 {

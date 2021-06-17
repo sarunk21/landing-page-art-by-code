@@ -9,13 +9,22 @@ module.exports = {
       backgroundColor: (theme) => ({
         footer: '#1DC0AD',
       }),
+      width: (theme) => ({
+        contactUs: '500px',
+      }),
       height: (theme) => ({
         'footer-bg': '440px',
         hero: '400px',
         'hero-mobile': '280px',
+        contactUs: '320px',
       }),
       borderRadius: (theme) => ({
         '4xl': '30px',
+      }),
+      colors: (theme) => ({
+        'blue-dark': '#115B76',
+        'green-dark': '#1DC0AD',
+        'green-light': '#28dac5',
       }),
     },
     fontFamily: {

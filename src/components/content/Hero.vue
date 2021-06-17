@@ -1,23 +1,24 @@
 <template>
   <div class="grid grid-cols-12 items-center">
     <div class="col-span-12 md:col-span-6">
-      <h1 class="title font-open-sans" style="color: #1dc0ad">
+      <h1
+        class="title font-open-sans text-blue-dark"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         Hai, kami adalah
       </h1>
-      <h1 class="title font-montserrat" style="color: #115b76">
+      <h1 class="title font-montserrat text-green-dark">
         Art By <span id="judul"></span> ABC
       </h1>
-      <p
-        class="text-xs md:text-lg my-4 md:my-6 opacity-70"
-        style="color: #115b76"
-      >
+      <p class="text-base md:text-lg my-4 md:my-6 opacity-70 text-blue-dark">
         Kami bisa menciptakan sesuatu yang indah dari kode
       </p>
       <div class="flex" data-aos="fade-up" data-aos-duration="1300">
-        <button class="px-4 py-2 text-sm md:text-lg mr-6 btn-contact">
+        <button class="px-8 py-2 text-sm md:text-lg mr-6 btn-contact">
           Kontak Kami
         </button>
-        <button class="px-4 py-2 text-sm md:text-lg btn-price">
+        <button class="px-8 py-2 text-sm md:text-lg btn-price">
           Lihat Harga
         </button>
       </div>
@@ -54,7 +55,7 @@ export default {
 
 <style scoped>
 .title {
-  @apply text-2xl font-semibold leading-snug md:text-5xl md:leading-snug;
+  @apply text-3xl font-semibold leading-snug md:text-5xl md:leading-snug;
 }
 
 .map {

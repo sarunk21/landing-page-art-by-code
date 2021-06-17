@@ -4,7 +4,7 @@
       <a href="/" class="inline-block">
         <img
           src="@/assets/img/logo.svg"
-          class="h-14 md:h-16"
+          class="h-14 md:h-16 -top"
           alt="Art By Code Logo"
         />
       </a>

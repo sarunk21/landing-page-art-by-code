@@ -4,7 +4,7 @@
       <h1
         class="title font-open-sans"
         data-aos="fade-right"
-        data-aos-duration="1000"
+        data-aos-duration="1200"
       >
         Tim Kami
       </h1>
@@ -12,7 +12,7 @@
         href="#"
         class="opacity-60 text-sm md:text-lg"
         data-aos="fade-left"
-        data-aos-duration="1000"
+        data-aos-duration="1200"
         >Anggota Lainnya</a
       >
     </div>
@@ -20,7 +20,8 @@
       <div
         class="col-span-12 md:col-span-4"
         data-aos="fade-up"
-        data-aos-duration="1000"
+        data-aos-duration="800"
+        data-aos-delay="600"
         data-aos-anchor-placement="center-bottom"
       >
         <div class="box mr-auto rounded-4xl" style="background-color: #D3FFCC">
@@ -43,7 +44,8 @@
       <div
         class="col-span-12 md:col-span-4 mt-20 md:mt-0"
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="800"
+        data-aos-delay="1000"
         data-aos-anchor-placement="center-bottom"
       >
         <div
@@ -69,7 +71,8 @@
       <div
         class="col-span-12 md:col-span-4 mt-20 md:mt-0"
         data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos-duration="800"
+        data-aos-delay="1400"
         data-aos-anchor-placement="center-bottom"
       >
         <div
@@ -94,7 +97,7 @@
       </div>
     </div>
   </div>
-  <hr class="w-4/5 mx-auto border my-32" style="color:#6FD3C9" />
+  <hr class="w-4/5 mx-auto border my-20 md:my-32" style="color:#6FD3C9" />
 </template>
 
 <style scoped>
