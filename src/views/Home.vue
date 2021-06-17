@@ -3,8 +3,8 @@
     <Navbar />
     <Hero />
     <Map />
-    <Work />
     <Service />
+    <Work />
     <Team />
     <Form />
   </div>
