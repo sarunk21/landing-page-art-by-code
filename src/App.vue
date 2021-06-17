@@ -17,7 +17,6 @@ export default {
 html {
   background-color: #edf8ff;
 }
-
 #app {
   font-family: 'Open Sans', sans-serif;
 }
