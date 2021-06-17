@@ -1,8 +1,5 @@
 <template>
   <div class="mt-1 md:mt-24 our-work">
-    <div class="flex justify-center">
-      <p class="title font-open-sans font-semibold mb-7">KARYA</p>
-    </div>
 
     <!-- Karya Kami -->
     <div class="text-center">
@@ -192,7 +189,7 @@
         />
       </div>
     </div>
-    <div class="text-center mb-5">
+    <div class="text-center mb-5 mt-5">
       <button
         class="
           text-white
