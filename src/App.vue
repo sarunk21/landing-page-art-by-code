@@ -3,21 +3,22 @@
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default {
   created() {
-    AOS.init();
+    AOS.init()
   },
-};
+}
 </script>
 
 <style>
-#app {
-  font-family: "Poppins", sans-serif;
+html {
+  background-color: #edf8ff;
 }
-p{
-  color: blue;
+
+#app {
+  font-family: 'Open Sans', sans-serif;
 }
 </style>
