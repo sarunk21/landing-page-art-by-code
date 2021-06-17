@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-28 FormContact mb-5">
+  <div class="mt-12 md:mt-28 FormContact mb-5">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <div>
         <div class="py-14 px-0 md:px-16">
