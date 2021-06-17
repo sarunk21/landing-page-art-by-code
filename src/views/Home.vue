@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-8">
+  <div class="container mx-auto px-8 overflow-hidden">
     <Navbar />
     <Hero />
     <Map />
