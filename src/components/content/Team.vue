@@ -97,7 +97,7 @@
       </div>
     </div>
   </div>
-  <hr class="w-4/5 mx-auto border my-20 md:my-32" style="color:#6FD3C9" />
+  <hr class="w-4/5 mx-auto border my-20 md:my-32" style="border-color:#6FD3C9" />
 </template>
 
 <style scoped>
