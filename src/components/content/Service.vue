@@ -21,7 +21,7 @@
         />
 
         <div
-          class="border px-6 py-12 mb-8 md:w-2/3 rounded-lg md:rounded-service-box-web shadow-xl"
+          class="border px-6 py-12 mb-8 md:w-2/3 web shadow-xl"
           data-aos="zoom-in"
           data-aos-delay="150"
           data-aos-duration="1000"
@@ -35,12 +35,12 @@
         </div>
 
         <div
-          class="border px-6 py-12 mb-8 md:w-2/3 rounded-lg md:rounded-service-box-mobile shadow-xl"
+          class="border px-6 py-12 mb-8 md:w-2/3 mobile shadow-xl"
           data-aos="zoom-in"
           data-aos-delay="250"
           data-aos-duration="1000"
         >
-          <img src="@/assets/img/mobile.svg" alt="web development" />
+          <img src="@/assets/img/mobile.svg" alt="mobile development" />
           <h3 class="font-medium text-sm py-2">Mobile Development</h3>
           <p class="info text-xs">
             Pembuatan Aplikasi Cross Platform Dengan Teknologi Masa Kini.
@@ -53,7 +53,7 @@
           data-aos-delay="350"
           data-aos-duration="1000"
         >
-          <img src="@/assets/img/ui-ux.svg" alt="web development" />
+          <img src="@/assets/img/ui-ux.svg" alt="ui ux design" />
           <h3 class="font-medium text-sm py-2">UI/UX Design</h3>
           <p class="info text-xs">
             Punya Ide Bagus ? Biarkan Kami Membuat Dan Mengembangkan Design Yang Kamu
@@ -76,7 +76,7 @@
         </div>
 
         <div
-          class="border px-6 py-12 md:w-2/3 mb-8 rounded-lg md:rounded-service-box-automation shadow-xl"
+          class="border px-6 py-12 md:w-2/3 mb-8 automation shadow-xl"
           data-aos="zoom-in"
           data-aos-delay="550"
           data-aos-duration="1000"
@@ -89,7 +89,7 @@
         </div>
 
         <div
-          class="border px-6 py-12 md:w-2/3 mb-8 rounded-lg md:rounded-service-box-branding shadow-xl"
+          class="border px-6 py-12 md:w-2/3 mb-8 branding shadow-xl"
           data-aos="zoom-in"
           data-aos-delay="450"
           data-aos-duration="1000"
@@ -120,12 +120,24 @@ export default {};
 
 .web {
   background: #ffff;
-  border-radius: 40px 40px 5px 40px;
+  @apply rounded-lg
+}
+
+@media(min-width: 768px){
+  .web {
+    border-radius: 40px 40px 5px 40px;
+  }
 }
 
 .mobile {
   background: #ffff;
-  border-radius: 30px 30px 5px 5px;
+  @apply rounded-lg
+}
+
+@media(min-width: 768px){
+  .mobile{
+    border-radius: 30px 30px 5px 5px;
+  }
 }
 
 .ui {
@@ -147,18 +159,29 @@ export default {};
 
 @media(min-width: 768px){
   .machine {
-  border-radius: 40px 5px 40px 40px;
-
+    border-radius: 40px 5px 40px 40px;
   }
 }
 
 .automation {
   background: #ffff;
-  border-radius: 5px 5px 40px 40px;
+  @apply rounded-lg
+}
+
+@media(min-width: 768px){
+  .automation {
+    border-radius: 5px 5px 40px 40px;
+  }
 }
 
 .branding {
   background: #ffff;
-  border-radius: 5px 40px 40px 40px;
+  @apply rounded-lg
+}
+
+@media(min-width: 768px) {
+  .branding {
+    border-radius: 5px 40px 40px 40px;
+  }
 }
 </style>
