@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         'img-footer': 'url("./assets/img/bg-wave.svg")',
+        review: 'url("./assets/img/bg-review.svg")',
       }),
       backgroundColor: (theme) => ({
         footer: '#1DC0AD',

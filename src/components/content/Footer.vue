@@ -53,7 +53,7 @@
 
 <style scoped>
 .background {
-  @apply flex bg-bottom items-center text-white pt-10 pb-10 md:pt-28 md:pb-0;
+  @apply flex bg-bottom bg-cover items-center text-white pt-10 pb-10 md:pt-28 md:pb-0;
 }
 
 li {
