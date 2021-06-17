@@ -6,8 +6,8 @@
     <Service />
     <Work />
     <Team />
-    <Form />
   </div>
+  <Form />
   <ContactUs />
   <Footer />
 </template>
