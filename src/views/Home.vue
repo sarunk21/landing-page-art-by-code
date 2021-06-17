@@ -27,6 +27,6 @@ import Form from '../components/content/FormContact.vue'
 
 export default {
   name: "Home",
-  components: { Navbar, Hero, Map, Footer, Service, Footer, ContactUs,  Work, Form, Review },
+  components: { Navbar, Hero, Map, Footer, Service, Footer, ContactUs, Team, Work, Form, Review },
 };
 </script>
