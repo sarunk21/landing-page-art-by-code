@@ -5,6 +5,7 @@
     <Map />
     <Team />
   </div>
+  <Review />
   <ContactUs />
   <Footer />
 </template>
@@ -16,9 +17,10 @@ import Map from '../components/content/Map.vue'
 import Team from '../components/content/Team.vue'
 import Footer from '../components/content/Footer.vue'
 import ContactUs from '../components/content/ContactUs.vue'
+import Review from '../components/content/Review.vue'
 
 export default {
   name: 'Home',
-  components: { Navbar, Hero, Map, Team, Footer, ContactUs },
+  components: { Navbar, Hero, Map, Team, Footer, ContactUs, Review },
 }
 </script>
