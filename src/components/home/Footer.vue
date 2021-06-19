@@ -1,17 +1,9 @@
 <template>
-  <div
-    class="bg-footer md:bg-transparent md:bg-img-footer background h-full md:h-footer-bg"
-  >
-    <div
-      class="container mx-auto px-8 grid grid-cols-12 items-stretch justify-center md:justify-items-center"
-    >
+  <div class="bg-footer md:bg-transparent md:bg-img-footer background h-full md:h-footer-bg">
+    <div class="container mx-auto px-8 grid grid-cols-12 items-stretch justify-center md:justify-items-center">
       <div class="grid grid-cols-12 col-span-12 mb-6 gap-4 md:col-span-3">
         <div class="col-span-12 md:col-span-3">
-          <img
-            src="@/assets/img/logo.svg"
-            class="h-16 md:h-auto"
-            alt="Logo Art By Code"
-          />
+          <img src="@/assets/img/logo.svg" class="h-16 md:h-auto" alt="Logo Art By Code" />
         </div>
         <div class="col-span-12 md:col-span-9">
           <h1 class="font-montserrat mb-3">
